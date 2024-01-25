@@ -27,7 +27,7 @@
 - Servo Motor 🤖
 - 3 LEDs 💡
 - Potentiometer 🎛️
-- DC Motor (as a machine) 🌀
+- DC Motor (as an engine) 🌀
 - Buzzer 🔊
 
 #### Description
@@ -78,5 +78,8 @@ If the emergency state is activated for 7 seconds (using a timer with overflow m
 
 - **EEPROM Usage:** Internal EEPROM for storing and retrieving system states.
 - **UART Communication:** MCU1 sends temperature data to MCU2 using UART.
-- **Potentiometer Control:** MCU2 adjusts the speed of the machine with the potentiometer.
+- **MCU1 Reset Control:** MCU1 resets using the Watchdog Timer.
+- **Potentiometer Control:** MCU2 adjusts the speed of the machine with the potentiometer using GPIO and Interrupt controls.
+- **LEDs Control:** MCU2 controls the 3 LEDs using GPIO.
 - **Emergency State Timer:** A timer with overflow mode is used to check the emergency state condition every 500ms. If the condition persists for 7 seconds, specific actions are taken.
+- **Simulation:** Using Proteus
