@@ -84,5 +84,3 @@ If the emergency state is activated for 7 seconds (using a timer with overflow m
 - **UART Communication:** MCU1 sends temperature data to MCU2 using UART.
 - **Potentiometer Control:** MCU2 adjusts the speed of the machine with the potentiometer.
 - **Emergency State Timer:** A timer with overflow mode is used to check the emergency state condition every 500ms. If the condition persists for 7 seconds, specific actions are taken.
-
-Feel free to adjust and expand the README as needed for your project documentation. 🚀
