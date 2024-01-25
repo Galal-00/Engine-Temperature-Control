@@ -79,7 +79,7 @@ If the emergency state is activated for 7 seconds (using a timer with overflow m
 - **EEPROM Usage 🧠:** Internal EEPROM for storing and retrieving system states.
 - **UART Communication 📡:** MCU1 sends temperature data to MCU2 using UART.
 - **MCU1 Reset Control 🔄:** MCU1 resets using the Watchdog Timer.
-- **Potentiometer Control 🎚️:** MCU2 adjusts the speed of the machine with the potentiometer using GPIO and interrupt controller.
+- **Potentiometer Control 🎚️:** MCU2 adjusts the speed of the machine with the potentiometer value using ADC, GPIO and interrupt controller.
 - **LEDs Control 💡:** MCU2 controls the 3 LEDs using GPIO.
 - **Emergency State Timer ⏰:** A timer with overflow mode is used to check the emergency state condition every 500ms using interrupts. If the condition persists for 7 seconds, specific actions are taken.
 - **Simulation 🤖**: Proteus .
