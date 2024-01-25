@@ -1,8 +1,4 @@
-# Engine Temperature Control System
- 
-# Project Title
-
-Engine Temperature Control System 🌡️🔧
+# Engine Temperature Control System 🌡️🔧
 
 ## System Description
 
