@@ -74,12 +74,13 @@ If the emergency state is activated for 7 seconds (using a timer with overflow m
 2. MCU1 activates the watchdog timer with the smallest time to reset MCU1.
 3. MCU2 follows the abnormal condition for 5 seconds.
 
-## Implementation Details
+## Implementation Details 🛠️
 
-- **EEPROM Usage:** Internal EEPROM for storing and retrieving system states.
-- **UART Communication:** MCU1 sends temperature data to MCU2 using UART.
-- **MCU1 Reset Control:** MCU1 resets using the Watchdog Timer.
-- **Potentiometer Control:** MCU2 adjusts the speed of the machine with the potentiometer using GPIO and Interrupt controls.
-- **LEDs Control:** MCU2 controls the 3 LEDs using GPIO.
-- **Emergency State Timer:** A timer with overflow mode is used to check the emergency state condition every 500ms. If the condition persists for 7 seconds, specific actions are taken.
-- **Simulation:** Using Proteus
+- **EEPROM Usage 🧠:** Internal EEPROM for storing and retrieving system states.
+- **UART Communication 📡:** MCU1 sends temperature data to MCU2 using UART.
+- **MCU1 Reset Control 🔄:** MCU1 resets using the Watchdog Timer.
+- **Potentiometer Control 🎚️:** MCU2 adjusts the speed of the machine with the potentiometer using GPIO and interrupt controller.
+- **LEDs Control 💡:** MCU2 controls the 3 LEDs using GPIO.
+- **Emergency State Timer ⏰:** A timer with overflow mode is used to check the emergency state condition every 500ms using interrupts. If the condition persists for 7 seconds, specific actions are taken.
+- **Simulation 🤖**: Proteus .
+- **Code Editor 👨‍💻**: Microchip Studio .
