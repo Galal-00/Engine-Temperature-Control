@@ -6,8 +6,9 @@
 
 #### Components
 - Push Button 🔘
-- Temperature Sensor 🌡️
+- LM35 Temperature Sensor 🌡️
 - DC Motor (as a fan) 🌀
+- L293D Motor Driver 🎛️
 
 #### Description
 1. **Initial State Check:**
