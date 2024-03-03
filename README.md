@@ -28,7 +28,8 @@
 - Servo Motor 🤖
 - 3 LEDs 💡
 - Potentiometer 🎛️
-- DC Motor (as an engine) 🌀
+- DC Motor (as an engine) 🏎️
+- L293D Motor Driver 🎛️
 - Buzzer 🔊
 
 #### Description
